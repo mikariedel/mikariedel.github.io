@@ -1,11 +1,8 @@
-p {
-    color: pink;
-}
-h1 {
-    color: red;
-}
-a {
-    color: gold;
+@font-face {
+    /* This loads the schoolbell font used in Teto 1, and assigns it to the
+       family 'schoolbell' */
+    font-family: schoolbell;
+    src: url(schoolbell.ttf);
 }
 
 /*the div that contains the grid*/
@@ -14,6 +11,7 @@ div.mygrid {
     text-align: center;
 }
 /*the unordered list that contains the grid cells as list items */
+
 div.mygrid ul {
     /* this makes the list behave like a text that can be centered */
     display: inline-block;
@@ -25,10 +23,10 @@ div.mygrid ul {
     max-width: 700px;
 }
 /* this selects list items in unordered lists within .mygrid tags */
+
 .mygrid ul li {
-    /* this makes list items behave like words/text */    
+    /* this makes list items behave like words/text */
     display: inline-block;
-    
     /* this sets 40px padding/yohaku around each list item */
     padding: 40px 40px 40px 40px;
 }
@@ -36,5 +34,5 @@ h1.title {
     color: #843e12;
     text-align: center;
     font-size: 50px;
-    font-family: Papyrus, fantasy;
+    font-family: schoolbell;
 }
