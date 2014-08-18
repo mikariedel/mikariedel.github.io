@@ -1,14 +1,22 @@
-/* This loads the schoolbell font used in Teto 1, and assigns it to the
-   family 'schoolbell' */
+/* This LOADS the schoolbell font used in Teto 1, and assigns it to the
+   family 'schoolbell' ('give it a name') */
 @font-face {
-    font-family: schoolbell;
+    font-family: myschoolbell;
+    /* src stands for "source" and means the source file for the font. */
     src: url(schoolbell.ttf);
+}
+
+/* this selects ALL elements */
+* {
+    /* this uses the font we defined using @font-face above */
+    font-family: myschoolbell;
 }
 
 /*the div that contains the grid*/
 div.mygrid {
     /* the div treats the list as a text element that gets centered */
     text-align: center;
+    display: block;
 }
 
 /*the unordered list that contains the grid cells as list items. ul stands for "unordered list" */
@@ -19,6 +27,8 @@ div.mygrid ul {
     padding: 0;
     /* this removes bullets */
     list-style-type: none;
+    /* margin is the space AROUND the block, whereas padding is the space WITHIN the block */
+    margin: 0px;
 }
 
 /* this selects list items in unordered lists within .mygrid tags */
@@ -47,5 +57,7 @@ h1.title {
     color: #843e12;
     text-align: center;
     font-size: 50px;
-    font-family: schoolbell;
+    /* create space above the title */
+    margin-top: 70px;
 }
+
