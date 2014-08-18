@@ -11,16 +11,17 @@ div.mygrid {
     text-align: center;
 }
 
-/*the unordered list that contains the grid cells as list items */
+/*the unordered list that contains the grid cells as list items. ul stands for "unordered list" */
 div.mygrid ul {
-    /* this makes the list behave like a text that can be centered */
+    /* this makes the list behave like a text that can be centered.行の中に文字を書くような表れ方をする。 */
     display: inline-block;
-    /* this removes default padding a list seems to have */
+    /* this removes default padding a list seems to have.　Pddingは余白。余白を上下左右に別の幅で作りたいときは、上、右、下、左、の順に数字を入れていくとそれが余白の幅になる。 */
     padding: 0;
     /* this removes bullets */
     list-style-type: none;
     /* this prevents the list to contain too many cells per row */
-    max-width: 700px;
+    max-width: 500px;
+
 }
 
 /* this selects list items in unordered lists within .mygrid tags */
@@ -30,7 +31,25 @@ div.mygrid ul {
     /* this sets 40px padding/yohaku around each list item */
     padding: 40px 40px 40px 40px;
 }
+div.mygrid2 {
+    /* the div treats the list as a text element that gets centered */
+    text-align: center;
+}
+div.mygrid2 ul {
+    display: inline-block;
+    padding: 0;
+    /* this removes bullets */
+    list-style-type: none;
+    /* this prevents the list to contain too many cells per row */
+    max-width: 700px;
 
+}
+.mygrid2 ul li {
+    /* this makes list items behave like words/text */
+    display: inline-block;
+    /* this sets 40px padding/yohaku around each list item */
+    padding: 40px 40px 40px 40px;
+}
 /* This selects the h1 tags that have a "title" class */
 h1.title {
     color: #843e12;
