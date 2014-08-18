@@ -19,9 +19,6 @@ div.mygrid ul {
     padding: 0;
     /* this removes bullets */
     list-style-type: none;
-    /* this prevents the list to contain too many cells per row */
-    max-width: 500px;
-
 }
 
 /* this selects list items in unordered lists within .mygrid tags */
@@ -31,25 +28,20 @@ div.mygrid ul {
     /* this sets 40px padding/yohaku around each list item */
     padding: 40px 40px 40px 40px;
 }
-div.mygrid2 {
-    /* the div treats the list as a text element that gets centered */
-    text-align: center;
-}
-div.mygrid2 ul {
-    display: inline-block;
-    padding: 0;
-    /* this removes bullets */
-    list-style-type: none;
-    /* this prevents the list to contain too many cells per row */
-    max-width: 700px;
 
+/* This selects every tag which has the class "twocolumn". We will give it less width to reduce
+the number of columns. */
+.twocolumn {
+    /* this prevents the list to contain too many cells per row */
+    max-width: 500px;
 }
-.mygrid2 ul li {
-    /* this makes list items behave like words/text */
-    display: inline-block;
-    /* this sets 40px padding/yohaku around each list item */
-    padding: 40px 40px 40px 40px;
+
+/* This selects every tag which has the class "threecolumn". We give a little more width to get three
+columns */
+.threecolumn {
+    max-width: 700px;
 }
+
 /* This selects the h1 tags that have a "title" class */
 h1.title {
     color: #843e12;
