@@ -11,6 +11,10 @@ div.mygrid {
     text-align: center;
 }
 
+* {
+    font-family: schoolbell;
+}
+
 /*the unordered list that contains the grid cells as list items. ul stands for "unordered list" */
 div.mygrid ul {
     /* this makes the list behave like a text that can be centered.行の中に文字を書くような表れ方をする。 */
@@ -56,4 +60,8 @@ h1.title {
     text-align: center;
     font-size: 50px;
     font-family: schoolbell;
+}
+div.title {
+    display: inline-block;
+    padding: 40px 40px 40px 40px;
 }
