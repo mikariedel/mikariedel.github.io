@@ -1,9 +1,22 @@
 /* This LOADS the schoolbell font used in Teto 1, and assigns it to the
-   family 'schoolbell' ('give it a name') */
+   family 'myschoolbell' ('give it a name') */
 @font-face {
     font-family: myschoolbell;
     /* src stands for "source" and means the source file for the font. */
     src: url(schoolbell.ttf);
+}
+
+/* This LOADS the Japanese font used in Teto 1, and assigns it to the
+   family 'apjapanese' ('give it a name') */
+@font-face {
+    font-family: apjapanese;
+    /* src stands for "source" and means the source file for the font. */
+    src: url(APJapanesefont.ttf);
+}
+
+/* Selects all tags with the "japanese" class. */
+.japanese {
+    font-family: apjapanese;
 }
 
 /* this selects ALL elements */
