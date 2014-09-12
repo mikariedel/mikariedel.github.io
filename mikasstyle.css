@@ -65,6 +65,11 @@ columns */
     max-width: 900px;
 }
 
+.onecolumn {
+    max-width: 600px;
+    padding: 10px;
+}
+
 /* This selects the h1 tags that have a "title" class */
 h1.title {
     color: #843e12;
