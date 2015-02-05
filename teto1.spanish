@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Teto and the Tall Monkey/テトと背の高いサル">
+
+    <link rel="stylesheet" type="text/css" href="mikasstyle.css">
+    <title>Mika Riedel</title>
+</head>
+
+<body>
+    <!-- the header tag indicates that its content is in the header of the page -->
+    <h1 class="title">Mika Riedel</h1>
+
+    <!-- this is the div(ision/section) that contains the grid -->
+    <div class="mygrid">
+        <ul class="twocolumn">
+            <li>
+                <a href="books/teto-book-en-reduced.pdf">
+                    <img width="100px" src="images/icon.booken.png">
+                </a>
+
+                <div>
+                    click above to download
+                    <br>or
+                    <a href="http://www.amazon.co.uk/Teto-Tall-Monkey-Mika-Riedel/dp/1499133561/ref=sr_1_2?ie=UTF8&qid=1409412533&sr=8-2&keywords=teto">buy here</a>
+                </div>
+            </li>
+            <li>
+                <a href="books/teto-book-ja-reduced.pdf">
+                    <img width="100px" src="images/icon.bookja1.png">
+                </a>
+                <div class="japanese">
+                    無料ダウンロード（↑本をクリック）
+                    <br>または
+                    <a class="japanese" href="http://www.amazon.co.jp/Teto-Tall-Monkey-Japanese-Riedel/dp/1499342403/ref=sr_1_2?ie=UTF8&qid=1409413328&sr=8-2&keywords=teto+and+the+tall+monkey">
+                        こちらで購入
+                        </a>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+    </body>
+
+</html>
