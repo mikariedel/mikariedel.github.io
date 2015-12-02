@@ -72,7 +72,7 @@ columns */
 
 /* This selects the h1 tags that have a "title" class */
 h1.title {
-    color:rgba(145, 75, 33, 0.7);
+    color:rgb(96, 62, 10);
     text-align: center;
     font-size: 50px;
     /* create space above the tit
