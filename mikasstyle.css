@@ -1,9 +1,9 @@
 /* This LOADS the schoolbell font used in Teto 1, and assigns it to the
    family 'myschoolbell' ('give it a name') */
 @font-face {
-    font-family: myschoolbell;
+    font-family: mypencilPete;
     /* src stands for "source" and means the source file for the font. */
-    src: url(schoolbell.ttf);
+    src: url(pencilPete.ttf);
 }
 
 /* This LOADS the Japanese font used in Teto 1, and assigns it to the
@@ -22,7 +22,7 @@
 /* this selects ALL elements */
 * {
     /* this uses the font we defined using @font-face above */
-    font-family: myschoolbell;
+    font-family: mypencilPete;
 }
 
 /*the div that contains the grid*/
